@@ -1,8 +1,9 @@
 /*
-0
-1 0
-0 1 0
-1 0 1 0
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
 */
 public class Pattern11 {
 
@@ -19,7 +20,7 @@ public class Pattern11 {
             } else {
                 start = 0;
             }
-            for (int j = 0; j < i; j++) {
+            for (int j = 0; j <= i; j++) {
                 System.out.print(start + " ");
                 start = 1 - start;
             }
