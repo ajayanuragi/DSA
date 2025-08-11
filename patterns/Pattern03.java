@@ -5,7 +5,7 @@
 1234
 12345
 */
-public class Pattern3 {
+public class Pattern03 {
 
     public static void main(String[] args) {
         int n = 5;
